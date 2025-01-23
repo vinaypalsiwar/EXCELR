@@ -1,0 +1,69 @@
+-->it will be called immediately once function 
+object is created
+
+
+--> syntax
+(expression-function)()
+
+(function()
+{
+console.log("hello")
+})()
+
+(() => {
+console.log("hello")
+})();
+
+
+
+-->Array in js
+          it is used to store data of an different data types( hetrogenous)
+
+Two ways 
+    1.declaration ways
+    ex:
+    let arr = [10,"hello",true,1n,undefined]
+    console.log(arr);
+
+    2.New keyword
+    ex:
+    let arr1=new Array(10, 20, 30)
+
+
+-->Objects in js
+         used to store data in the form of key and value pair
+
+two ways
+   1.declaration way
+   ex:
+   let obj = {
+   name:"Rahul",
+   id  : 1,
+   boolean: true,
+   arr : [10,20,30],
+   null : null,
+   undefined : undefined,
+   demo : function()
+   {
+   console.log("hello")
+   }}
+  console.log(obj);
+  console.log(obj.name);
+
+THIS KEYWORD:
+       USED TO CALL VARIABLE FROM GLOBAL TO LOCAL SCOPE
+       This key word is ued to target current objects 
+
+   2.Constructor function
+         used to create object
+    ex:
+    function obj1(name,id)
+    {
+     this.name = name;
+     this.id = id;
+    }
+    let p1 = new obj1("Rahul",1);
+    console.log(p1.name);
+    console.log(p1.id);
+  
+

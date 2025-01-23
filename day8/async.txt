@@ -1,0 +1,34 @@
+-->Asynchronous function :
+               making a way for other functions to execute first 
+
+   Two methods 
+       1.setTimeout(callbackfunction,delay-time)
+       2.setInterval(cbf,delay-time)
+       -->this method present in widow object
+
+-->Promise 
+  it is an object
+  used to look after async function
+
+  3-phase
+  1.pending phase -->either it will be resolve or reject
+  2.resolve / fullfill phase -->async function not working properly
+       -- .then(cbf){higher oder method}
+  3.reject phase -->async fun not working properly
+       when promise return reject method then it accepts  .catch method [ -- .catch(cbf)]
+    
+Syntax for promise:
+       new promise((resolve , reject )=>{
+       --async-fun-code
+       })
+       .then(cbf)
+       .catch(cbf)
+
+promise chaining
+        using  multiple then methods is called promise chaining
+
+to avoid promise chaining we use 
+         async and await are the keywords [used to avoid promise chaining]
+
+
+     

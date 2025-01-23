@@ -1,0 +1,45 @@
+
+--------------------------------------------------------------------------------------------------------------------
+    BOM-[browser object model]
+     |  
+  window--is root element for bom
+     |
+   _________________________________________________
+   |    |       |       |        |           |     |    
+screen history fetch navigator navigation storage dom
+
+
+-->Dom-[document object model]
+    root element-document[inside document html code will be their in tree structure]
+         |
+         html
+         |
+      ______________
+      |            |
+      head        body
+        |           |
+      ________      __
+      |      |       |
+      meta title   all tags 
+
+it an object
+dom is an api provided by window
+root-document
+
+having life spam :until page-reloads
+
+used to create , update/modify , delte , an element
+  and we can provide style using DOM.
+
+  Converting html structure to dom:
+
+          html
+head               body
+                     __________________________
+                  |                            |
+                form                          div
+                                          span    div-
+                  |
+             ________                                  |_ol -
+            label input                       |_li
+                   
