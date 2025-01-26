@@ -1,0 +1,84 @@
+
+--------------------------------------------------------------------------------------------------------------------
+    BOM-[browser object model]
+     |  
+  window--is root element for bom
+     |
+   _________________________________________________
+   |    |       |       |        |           |     |    
+screen history fetch navigator navigation storage dom
+
+
+-->Dom-[document object model]
+    root element-document[inside document html code will be their in tree structure]
+         |
+         html
+         |
+      ______________
+      |            |
+      head        body
+        |           |
+      ________      __
+      |      |       |
+      meta title   all tags 
+
+it an object
+dom is an api provided by window
+root-document
+
+having life spam :until page-reloads
+
+used to create , update/modify , delte , an element
+  and we can provide style using DOM.
+
+  Converting html structure to dom:
+
+          html
+head               body
+                     __________________________
+                  |                            |
+                form                          div
+                                          span    div-
+                  |
+             ________                                  |_ol -
+            label input                       |_li
+                   
+
+
+nodelist stores -plaintext and html tag 
+html stofres - only tags
+
+//document.queryselector
+//->we have to pass value with css symbol.
+//-->will return reference of first element
+
+//document.queryselectorall
+//->we have to pass value with css symbol.
+//-->will return reference in a node-list.
+
+Events in dom 
+it is an action permofmed by end-users on a web page
+
+//->events are triggered by user actions
+
+types:
+1.keyboard
+   key-up event
+   key-down event
+   key-press event
+2.mouse
+   onmouseover event 
+   onmouseleave event 
+   dbclick
+3.form 
+   input event
+   blur event
+   focus event
+4.pinter
+   click event
+
+
+
+
+
+
