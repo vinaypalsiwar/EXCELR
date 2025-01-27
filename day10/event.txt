@@ -1,0 +1,4 @@
+math-round power ,random  will be inclkufed
+
+round makes without any decimals numbers
+
