@@ -1,0 +1,18 @@
+[
+    {
+        "name" : "vinnu" ,
+         "id" : 1,
+         "designation" : "developer"
+
+    },
+    {
+        "name" : "vin" ,
+        "id" : 2,
+        "designation" : "tester"
+    },
+    {
+        "name" : "vinay" ,
+        "id" : 3,
+        "designation" : "deveops"
+    }
+]

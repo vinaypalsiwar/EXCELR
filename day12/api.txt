@@ -1,0 +1,31 @@
+soap-source 
+
+in rest and soap we get json apis only
+
+Json:
+json-javascript object notation
+--------------------------------------
+-->it is a plain text file used to store data in the form of key and value pair 
+where all the keys should be enclosed in a double quote( " ").
+
+-->json has two methods
+  1.stringify() 
+      -- will convert object to json format.
+  2.parse()
+       -- will convert json to object.
+
+how to create a json.
+------------------------------
+step1:- create a .json file
+step2:- create a data in the form of key and value pair 
+        and  key should be enclosed with double quotes.
+        has a value we should not use undefined and function
+        data-type.
+
+        --> [{ }, { }, { } , ...](array of object)
+
+
+200-error
+it is array buffer - things that are understood by only machines 
+
+
